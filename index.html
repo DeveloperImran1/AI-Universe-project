@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-3xl text-center">AI Universe Hub</h1>
+    </header>
+    <main class="container mx-auto mt-8">
+
+        <section class="my-6  p-4 text-center">
+            <!-- <input id="search-field" type="text" placeholder="search now"
+                class="input input-bordered w-full max-w-xs" /> -->
+            <button onclick="handleSearch()" class="btn btn-accent">Search</button>
+
+        </section>
+
+        <!-- AI Card section  -->
+        <section class="">
+
+            <div id="aicardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-7 shadow-xl">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- You can open the modal using ID.showModal() method -->
+        <dialog id="my_modal_4" class="modal">
+          
+
+            
+        </dialog>
+
+
+    </main>
+
+
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
